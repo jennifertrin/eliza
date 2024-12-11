@@ -31,7 +31,7 @@ interface Plugin {
 pnpm add @ai16z/plugin-[name]
 ```
 
-2. Import and register the plugin in your character configuration:
+2. Import and register the plugin in your character configuration. The original character configuration is defined in `src/agent/index.ts`.
 
 ```typescript
 import { bootstrapPlugin } from "@eliza/plugin-bootstrap";
